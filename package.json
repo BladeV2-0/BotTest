@@ -1,0 +1,23 @@
+{
+  "name": "bottest",
+  "version": "1.0.0",
+  "description": "Skype bot test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BladeV2-0/BotTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BladeV2-0/BotTest/issues"
+  },
+  "homepage": "https://github.com/BladeV2-0/BotTest#readme",
+  "dependencies": {
+    "botbuilder": "^3.15.0",
+    "express": "^4.16.3"
+  }
+}
