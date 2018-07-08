@@ -11,7 +11,7 @@ var listeningport = process.env.PORT || 3000;
 
 var botservice =  new skype .ChatConnector({
     appId: '678e6bca-145a-472d-b71b-e7e25d99583a',
-    appPassword: 'fhoNPHBL06(^*rirxSQ862='
+    appPassword: 'rlsHPYHH235](}uyjjRB82-'
 });
 
 //Create a reference to our BOT service
