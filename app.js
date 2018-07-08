@@ -19,7 +19,7 @@ var bot = new skype.UniversalBot(botservice);
 
 
 //Wire up the bot service to our Webservices, to ensure message is posted
-app.post('skp/msg', botservice.listen());
+app.post('/Skype/msg', botservice.listen());
 
 bot.dialog('/',function (session) {
     var skypemsg = session.message.text.toLocaleLowerCase();
