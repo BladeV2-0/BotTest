@@ -24,11 +24,11 @@ app.post('/skype/msg', botservice.listen());
 bot.dialog('/',function (session) {
     var skypemsg = session.message.text.toLocaleLowerCase();
     if (skypemsg === 'hi' || skypemsg === 'hello' || skypemsg === 'hey' || skypemsg === 'howzit'){
-        session.send('Howzit! SSSC Bot at your service, i can only discuss booking spaces at the moment');
+        session.send('Hi! SSSC Bot at your service, i can only discuss booking spaces at the moment');
     }
     else
     {
-        session.send('Jammer bru, please repeat that');
+        session.send('Sorry I don\'t understand, please repeat that');
     }
 });
 
