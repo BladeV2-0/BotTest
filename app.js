@@ -9,7 +9,7 @@ var listeningport = process.env.PORT || 3000;
 
 //Connect to the Bot Service
 
-var botservice =  new skype .ChatConnector({
+var botservice =  new skype.ChatConnector({
     appId: '678e6bca-145a-472d-b71b-e7e25d99583a',
     appPassword: 'rlsHPYHH235](}uyjjRB82-'
 });
@@ -28,7 +28,7 @@ bot.dialog('/',function (session) {
     }
     else
     {
-        session.send('Sorry I don\'t understand, please repeat that');
+        session.send('Sorry I don\'t understand, please repeat your question');
     }
 });
 
